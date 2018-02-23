@@ -23,4 +23,4 @@ services:
       MYSQL_PASSWORD: secret
       MYSQL_ROOT_PASSWORD: secret
     volumes: 
-      - /Users/erikhansen/mediawiki/mysql:/var/lib/mysql
+      - ./mysql:/var/lib/mysql
